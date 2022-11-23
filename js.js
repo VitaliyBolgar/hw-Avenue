@@ -1,6 +1,5 @@
-var height	= 20;
-var width = 12;
-var text = "См^2";
-var text2 = "Площадь прямоугольника ="
-var S = height*width
-document.write(text2 + text + S)
+var height = prompt("Введите высоту:");
+var width = prompt("Введите ширину:");
+var S = width*height;
+var text = "Площадь прямоугольника равна "+ S;
+alert(text)
