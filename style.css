@@ -24,5 +24,39 @@
 		width: 200px;
 		height: 200px;
 	}
+}
 
+.goast{
+	position: relative;
+	left: 137px;
+	width: 159px;
+	top: 135px;
+}
+
+
+.strelka{
+	position: relative;
+	z-index: 1;
+	top: -15px;
+	width: 75px;
+	left: 102px;
+	animation-direction: reverse;
+	
+}
+
+.strelka,.goast{
+	animation: strelrot 30s infinite linear;
+}
+
+
+@keyframes strelrot {
+	0%{
+		transform: rotate(0);
+	}
+		
+	100%{
+		transform: rotate(360deg);
+	}
+
+	
 }
