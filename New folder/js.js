@@ -37,16 +37,17 @@
 // let text= "Результат :"+result;
 // console.log(text);
 
-let num11 = +prompt("введите число");	
-let num22 = +prompt ("введите число");
-let result=(+num11+num22);
-let text = "Результат :"+result;
+let num1 = +prompt()
+let num2 = +prompt()
+let num3 = +prompt()
+let num4 = +prompt()
+let num5 = +prompt()
+let num6 = +prompt()
 
-alert(text);
+let result = num1+num2
+let result1 = num3+num4
+let result2 = num5+num6
 
+// alert('Наш результат: '+result + 'Наш результат: '+result1+'Наш результат: '+result2)
+alert(`Наш результат: ${result} Наш результат: ${result1} Наш результат:${result2}`)
 
-
-let value;
-
-
-value = String(10)
