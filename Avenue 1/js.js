@@ -174,22 +174,59 @@
 // 	alert("Неверное число")
 // }
 
-let hours = prompt ("Задайте переменную") 
-if (hours>=1 && hours<= 14)
-{
-	alert("Первая четверть")
-}
-else if (hours>=15&&hours<=29) {
-	alert("Вторая четверть")
-}
-else if(hours>=30&&hours<=44) {
-	alert("Третья четверть")
-}
-else if(hours>=45&&hours<=59)
-{
-	alert("Четвертая четверть")
-}
-else  
-{
-	alert("Неверное число")
-}
+// let hours = prompt ("Задайте переменную") 
+// if (hours>=1 && hours<= 14)
+// {
+// 	alert("Первая четверть")
+// }
+// else if (hours>=15&&hours<=29) {
+// 	alert("Вторая четверть")
+// }
+// else if(hours>=30&&hours<=44) {
+// 	alert("Третья четверть")
+// }
+// else if(hours>=45&&hours<=59)
+// {
+// 	alert("Четвертая четверть")
+// }
+// else  
+// {
+// 	alert("Неверное число")
+// }
+
+
+// let ru = ['пн вт ср чт пт сб вс']
+// let en = ['m th w ther f std sd']
+
+// let lang = prompt("Ввод переменной")
+// if (lang == "ru") 
+// {
+// 	alert (ru)
+// }
+// else if (lang == "en")
+// {
+// 	alert (en)
+// }
+// else
+// {
+// 	alert("Неверное значение")
+// }
+
+
+// let value;
+// value = String(10);
+// value = (40).toString();
+
+// value= Number(55+"55")
+
+// console.log(value);
+// console.log(typeof value);
+
+let lang = prompt ('Набери язык (ru; en)') 
+let arr = { 
+ 'ru':['пн', 'вт', 'ср','чт', 'пт', 'сб', 'вс'], 
+ 'en':['mn', 'ts', 'wd', 'th', 'fr', 'st', 'sn'],
+
+}; 
+if(!(lang=='ru&&en'))
+alert('неизвестное число')
